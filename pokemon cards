@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="serrano_sequito_style.css">
+    <title>pokemoncards</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <img src="luxray_transparent.png" alt="pokemon img">
+        <h2>Luxray</h2>
+        <p class="type1">Type:</p>
+        <p class="type">Electric</p>
+        <p class="description">Luxray is an Electric-type Pokémon that was introduced in Generation IV.</p>
+        <div class="controls">
+            <button class="add">add card</button>
+            <button class="del">delete card</button>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="container1">
+    <div class="card">
+        <img src="politoed_transparent.png" alt="pokemon img">
+        <h2>politoed</h2>
+        <p class="type1">Type:</p>
+        <p class="type2">Water</p>
+        <p class="description">Luxray is an Electric-type Pokémon that was introduced in Generation IV.</p>
+        <div class="controls">
+            <button class="add">add card</button>
+            <button class="del">delete card</button>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+
+}
+
+.card{
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 0 4px 6px rgba(1, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    object-fit: cover;
+    order: 5;
+    margin-bottom: 1;
+    
+}
+
+.card h2{
+    margin: 20px;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.card .type{
+    background-color: #ffcb05;
+    color: #2a75bb;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: inline;
+
+}
+
+.type2{
+     background-color: #a1c8ec;
+    color: #2a75bb;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: inline;
+
+
+}
+
+
+.type1{
+    color: black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: inline;
+
+}
+
+.card .description{
+    margin: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+
+}
+
+.container{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAPne4cfQe3IxCqXDzUfZHNsWY0GGDOtHg1uIp4Hfg801bvbcif3INUpAo2knD-L9i2_I&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 5);
+    overflow: hidden;
+
+}
+
+.card{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+.card img{
+    max-width: 110px;
+    margin-bottom: 1px;
+
+}
+
+.controls{
+    margin-bottom: 20px;
+    
+    
+}
+
+.add, .del {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.add:hover, .del:hover {
+    background-color: #27ae60;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="serrano_sequito_style.css">
+    <title>pokemoncards</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <img src="luxray_transparent.png" alt="pokemon img">
+        <h2>Luxray</h2>
+        <p class="type">Electric</p>
+        <p class="description">Luxray is an Electric-type Pokémon that was introduced in Generation IV.</p>
+
+
+        
+    </div>
+</div>
+
+
+
+</body>
+</html>
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+
+}
+
+.card{
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 0 4px 6px rgba(1, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    object-fit: cover;
+    order: 5;
+    margin-bottom: 1;
+    
+}
+
+.card h2{
+    margin: 20px;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.card .type{
+    background-color: #ffcb05;
+    color: #2a75bb;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.card .description{
+    margin: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+
+}
+
+.container{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAPne4cfQe3IxCqXDzUfZHNsWY0GGDOtHg1uIp4Hfg801bvbcif3INUpAo2knD-L9i2_I&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 5);
+    overflow: hidden;
+
+}
+
+.card{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+.card img{
+    max-width: 100px;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+
+}
+
+.card{
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 0 4px 6px rgba(1, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    object-fit: cover;
+    order: 5;
+    margin-bottom: 1;
+    
+}
+
+.card h2{
+    margin: 20px;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.card .type{
+    background-color: #ffcb05;
+    color: #2a75bb;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.card .description{
+    margin: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+
+}
+
+.container{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAPne4cfQe3IxCqXDzUfZHNsWY0GGDOtHg1uIp4Hfg801bvbcif3INUpAo2knD-L9i2_I&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 5);
+    overflow: hidden;
+
+}
+
+.card{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+.card img{
+    max-width: 100px;
+    margin-bottom: 20px;
+
+}
