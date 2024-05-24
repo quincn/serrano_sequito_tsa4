@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #4a3a58;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.top-container, .bottom-container {
+    display: flex;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto auto;
+}
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.card {
+    background-image: url('images.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 2, 1), 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 30%;
+    height: 580px; 
+    margin: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(57, 114, 161, 0.356);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.card-content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: auto; 
+    align-items: center;
+}
+
+.card h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    text-align: center;
+    color: wheat;
+}
+
+.card .type, .card .type2 {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0%;
+    display: inline-block;
+    margin-top: auto; 
+}
+
+.card .type {
+    background-color: #F8E559;
+    color: #ffffff;
+}
+
+.type3{
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0%;
+    display: inline-block;
+    margin-top: -1%; 
+    background-color: #03AED2;
+    color: #ffffff;
+}
+
+.type4{
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0%;
+    display: inline-block;
+    margin-top: 2%; 
+    background-color: #a50a0a;
+    color: #ffffff;
+}
+
+.type5{
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0%;
+    display: inline-block;
+    margin-top: auto; 
+    background-color: #A0DEFF;
+    color: #ffffff;
+}
+
+.type6{
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0%;
+    display: inline-block;
+    margin-top: 2%; 
+    background-color: #0835ff;
+    color: #ffffff;
+}
+
+.type7{
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0%;
+    display: inline-block;
+    margin-top: auto; 
+    background-color: #736C75;
+    color: #ffffff;
+}
+
+.type8{
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10%;
+    display: inline-block;
+    margin-top: 2%; 
+    background-color: #7c1220;
+    color: #ffffff;
+}
+
+.type9{
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    margin-top: auto; 
+    background-color: #774709;
+    color: #ffffff;
+}
+
+.card .type2 {
+    background-color: #000000;
+    color: #2a75bb;
+}
+
+.card .type1 {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.card .description {
+    margin: 0 0 20px;
+    font-size: 14px; 
+    line-height: 1.5;
+    text-align: justify;
+    color: #ffffff;
+    margin-top: auto; 
+    background-color: #387ADF;
+    border-radius: 10%;
+    padding: 2%;
+}
+
+.card .description2 {
+    margin: 0 0 20px;
+    font-size: 14px; 
+    line-height: 1.5;
+    text-align: justify;
+    color: #ffffff;
+    margin-top: auto; 
+    background-color: #a75916;
+    border-radius: 10%;
+    padding: 2%;
+}
+
+.card .description3 {
+    margin: 0 0 20px;
+    font-size: 14px; 
+    line-height: 1.5;
+    text-align: justify;
+    color: #ffffff;
+    margin-top: auto; 
+    background-color: #EA7A3C;
+    border-radius: 10%;
+    padding: 2%;
+}
+
+.card .description4 {
+    margin: 0 0 20px;
+    font-size: 14px; 
+    line-height: 1.5;
+    text-align: justify;
+    color: #ffffff;
+    margin-top: auto; 
+    background-color: #ac8e0d;
+    border-radius: 10%;
+    padding: 2%;
+}
+
+.card .description5 {
+    margin: 0 0 20px;
+    font-size: 14px; 
+    line-height: 1.5;
+    text-align: justify;
+    color: #ffffff;
+    margin-top: auto; 
+    background-color: #602099;
+    border-radius: 10%;
+    padding: 2%;
+}
+
+.card .description6 {
+    margin: 0 0 20px;
+    font-size: 14px; 
+    line-height: 1.5;
+    text-align: justify;
+    color: #ffffff;
+    margin-top: auto; 
+    background-color: #6A7BAF;
+    border-radius: 10%;
+    padding: 2%;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-top: auto; 
+}
+
+.add {
+    display: inline;
+    background-color: green;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+    font-size: 10px;
+    box-shadow: 3px 4px 4px;
+    transition: 0.5s;
+    margin-right: 6%;
+}
+
+.del {
+    display: inline;
+    background-color: #B31312;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+    font-size: 10px;
+    box-shadow: 3px 4px 4px;
+    transition: 0.5s;
+}
+
+.add:hover {
+    display: inline;
+    background-color: darkgreen;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+    font-size: 10px;
+    box-shadow: 3px 4px 4px;
+}
+
+.del:hover {
+    background-color: #FE0000;
+}
